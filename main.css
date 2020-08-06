@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    height: 100px;
+}
+.row > div.col-3, div.col-2 {
+    flex: 1;
+    background: lightgrey;
+    border: 1px solid grey;
+}
+span.statement {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+td {
+    padding: 0 10px 0 10px;
+}
+.hline{
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+.vl_line{
+    width: 47px;
+    height: 147px;
+    border-left: 1px solid black;
+    position: absolute;
+
+    content:"";
+    width:40px;
+    transform: rotate(30deg);
+    transform-origin: 0% 0%;
+}
+.vr_line{
+    width: 47px;
+    height: 147px;
+    border-left: 1px solid black;
+    position: absolute;
+
+    content:"";
+    width:40px;
+    transform: rotate(330deg);
+    transform-origin: 0% 0%;
+}
